@@ -1,70 +1,86 @@
-# Necessair support
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img src="assets/banner.svg" alt="Necessair support — something broke? tell me." width="100%">
+</picture>
 
-Necessair is a quiet place to keep what you find: a link, a passage from an
-article, a paragraph from a PDF. It lives in your browser and on your Mac,
-with no account and no server, and syncs only if you ask it to, through your
-own Google Drive.
+<img src="assets/icon.png" alt="" width="48" align="left">
 
-This is where you can ask for help, tell me something went wrong, or share
-an idea. Pull up a chair.
+**Necessair** is a quiet place to keep what you find: a link, a passage from
+an article, a paragraph from a PDF. No account, no server, and it syncs only
+if you ask it to, through your own Google Drive.
 
-## Getting help
+<br clear="left">
 
-- **Quick answers and a way to write to me** are on the site:
-  <https://caroljardims.com.br/content-saver>
-- **Something broke, or you have an idea?** [Open an issue](https://github.com/caroljardims/necessair-support/issues/new)
-  here. I read every one, at a sensible pace.
+This is its support corner. The same help lives on the site, with a little
+form that fills in a ticket for you:
+**<https://caroljardims.com.br/content-saver/support>**
 
-The app's source code is not public; this repository holds only this page and
-your issues.
+## Two ways to reach me
 
-## Before you open an issue
+**Tickets on GitHub.** Bugs, ideas and requests live here, in the open. You
+can also read what others already reported.
+[Open a ticket →](https://github.com/caroljardims/necessair-support/issues/new) ·
+[see open tickets →](https://github.com/caroljardims/necessair-support/issues)
 
-Issues here are public, so please keep your library to yourself.
+**Email.** Prefer something quieter, or don't have a GitHub account? Write to
+me directly at [caroljardims@gmail.com](mailto:caroljardims@gmail.com?subject=Necessair).
+I usually reply within a few days.
 
-- **Don't paste what you saved.** Describe it instead: "a long selection from
-  a PDF" is enough, and your passages stay yours.
-- **Say where it happened.** The browser and its version, or your macOS
-  version, and the Necessair version (the browser's extensions page, or
-  Necessair › About on the Mac).
-- **Say what you did, and what you expected.** Two or three steps are
-  usually all it takes.
+Tickets here are public, so please keep your library to yourself: describe
+what you saved ("a long selection from a PDF") instead of pasting it. Tell me
+the browser and its version, or your macOS version, and the steps that led
+there. Two or three lines are usually all it takes.
 
-## A few answers
+## Before you write — three things that solve most of it
 
-**Where are my captures kept?**
-On your device first, always. If you connect Google Drive, a copy goes to a
-hidden folder that only Necessair can see. It cannot read anything else in
-your Drive.
+<details>
+<summary><strong>My captures disappeared</strong></summary>
 
-**Can you see what I save?**
-No. There is no server and no analytics, so nothing you save ever reaches
-me or anyone else. The [privacy policy](https://caroljardims.com.br/content-saver/privacy)
-says exactly what it touches.
+Captures live in your browser's local storage. Clearing site data, using a
+fresh profile, or reinstalling the extension wipes that copy. If you had
+connected Google Drive, reconnect the same account and they come back.
+</details>
 
-**Does it work offline?**
-Yes. Saving never waits for the network; syncing catches up when you are
-back online.
+<details>
+<summary><strong>Saving does nothing on a certain site</strong></summary>
 
-**How do I save from Preview, or other apps without a Share menu? (Mac)**
-In Necessair, choose **File › Enable Saving from Any App…** and confirm the
-folder it suggests. Then select text anywhere and choose
-**Services › Save to Necessair**. You can give it a keyboard shortcut in
-System Settings › Keyboard › Keyboard Shortcuts › Services.
+Some pages block extensions entirely (the browser's own pages, the Web Store,
+some PDFs), and some load the article only after you scroll. Try selecting the
+text and using the right-click menu instead — and tell me which site it was.
+</details>
 
-**How do I remove everything from my Drive?**
-Open Google Drive › Settings › Manage apps › Necessair › Delete hidden app
-data. The folder is hidden, so this is the only way to remove it, and it
-can't be undone. Removing the extension deletes what it kept in your browser.
+<details>
+<summary><strong>Drive sync stopped</strong></summary>
+
+The access token expires, and revoking access in your Google account ends it
+too. Disconnect and reconnect Drive in the extension. Your local copies are
+untouched either way.
+</details>
+
+What Necessair keeps, and where, is all in the
+[privacy policy](https://caroljardims.com.br/content-saver/privacy). The app's
+source code is not public; this repository holds only this page and your
+tickets.
+
+## A small favor
+
+Support is free and stays free — a coffee just makes the answers arrive
+caffeinated. [Pix (Brazil)](https://caroljardims.com.br/pix) ·
+[Buy me a coffee](https://buymeacoffee.com/caroljardims)
+
+<sub>(no pressure though — a kind note is also a very acceptable currency ♡)</sub>
 
 ## Em português
 
-Este é o cantinho de suporte do Necessair. As respostas rápidas e um jeito de
-me escrever estão no site: <https://caroljardims.com.br/content-saver>. Se algo
-deu errado ou você teve uma ideia, [abra uma issue](https://github.com/caroljardims/necessair-support/issues/new), em
-português mesmo. Só não cole aqui o que você guardou: as issues são públicas,
-e os seus trechos são seus.
+Este é o cantinho de suporte do Necessair. O mesmo suporte está no site, com
+um formulário que já preenche o chamado pra você:
+<https://caroljardims.com.br/content-saver/support>. Se algo deu errado ou
+você teve uma ideia, [abra um chamado](https://github.com/caroljardims/necessair-support/issues/new),
+em português mesmo, ou escreva para
+[caroljardims@gmail.com](mailto:caroljardims@gmail.com?subject=Necessair). Só
+não cole aqui o que você guardou: os chamados são públicos, e os seus trechos
+são seus.
 
 ---
 
-Made with care, at a sensible pace ♡
+<sub>made with care, at a sensible pace ♡</sub>

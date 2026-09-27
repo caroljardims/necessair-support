@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="t d">
+  <title id="t">Necessair support</title>
+  <desc id="d">Something broke? Tell me.</desc>
+  <rect width="1200" height="360" rx="24" fill="#F6EBD8"/>
+  <circle cx="1120" cy="20" r="200" fill="#F0B48A" opacity=".5"/>
+  <circle cx="1010" cy="330" r="90" fill="#E89B78" opacity=".35"/>
+  <g transform="translate(64 70) scale(1.5)" fill="none" stroke="#C65D3A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3.4 11.2c0-3.4 3.9-5.7 8.6-5.7s8.6 2.3 8.6 5.7c0 4.2-3.9 7.1-8.6 7.1s-8.6-2.9-8.6-7.1z"/>
+    <path d="M3.6 10.4c3.5-2 13.3-2 16.8 0"/>
+    <path d="M6.2 8.1C4.7 6.5 3.4 5.5 2.6 6.3c-.8.8 0 2 1.4 3"/>
+  </g>
+  <text x="112" y="100" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="30" fill="#C65D3A">Necessair</text>
+  <text x="66" y="168" font-family="Caveat, 'Bradley Hand', 'Segoe Print', cursive" font-size="36" fill="#C65D3A" transform="rotate(-1.5 66 168)">support —</text>
+  <text x="64" y="240" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="64" font-weight="500" letter-spacing="-0.5" fill="#3A2418">something broke? <tspan font-style="italic" fill="#C65D3A">tell me.</tspan></text>
+  <text x="66" y="298" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" fill="#6B4632">Help, bugs and ideas for the Necessair app, at a sensible pace ♡</text>
+</svg>
